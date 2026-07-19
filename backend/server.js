@@ -18,7 +18,7 @@ const placeRoutes = require("./routes/placeRoutes");
 app.use("/api/places", placeRoutes);
 
 app.get("/", (req, res) => {
-  res.send("DEVAPRIYA TEST API RUNNING");
+  res.send("Tourist Places Explorer API is Working");
 });
 
 const PORT = process.env.PORT || 5000;
