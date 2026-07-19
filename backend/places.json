@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Mysore Palace",
+    "state": "Karnataka",
+    "city": "Mysore",
+    "image": "/images/mysore-palace.png",
+    "description": "Historic royal palace known for its magnificent architecture and lighting.",
+    "bestTime": "October - February",
+    "entryFee": 100,
+    "rating": 4.8,
+    "location": "Mysore, Karnataka"
+  },
+  {
+    "name": "Munnar",
+    "state": "Kerala",
+    "city": "Munnar",
+    "image": "/images/munnar.png",
+    "description": "Beautiful hill station famous for tea plantations and misty mountains.",
+    "bestTime": "September - March",
+    "entryFee": 0,
+    "rating": 4.7,
+    "location": "Munnar, Kerala"
+  },
+  {
+    "name": "Coorg",
+    "state": "Karnataka",
+    "city": "Madikeri",
+    "image": "/images/coorg.png",
+    "description": "Popular hill station famous for coffee plantations and waterfalls.",
+    "bestTime": "October - March",
+    "entryFee": 0,
+    "rating": 4.8,
+    "location": "Coorg, Karnataka"
+  },
+  {
+    "name": "Taj Mahal",
+    "state": "Uttar Pradesh",
+    "city": "Agra",
+    "image": "/images/tajmahal.png",
+    "description": "World-famous white marble mausoleum and UNESCO World Heritage Site.",
+    "bestTime": "October - March",
+    "entryFee": 50,
+    "rating": 5.0,
+    "location": "Agra, Uttar Pradesh"
+  },
+  {
+    "name": "India Gate",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "image": "/images/indiagate.png",
+    "description": "Iconic war memorial located in the heart of India's capital.",
+    "bestTime": "October - March",
+    "entryFee": 0,
+    "rating": 4.6,
+    "location": "New Delhi"
+  },
+  {
+    "name": "Charminar",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "image": "/images/charminar.png",
+    "description": "Historic monument and symbol of Hyderabad.",
+    "bestTime": "October - February",
+    "entryFee": 25,
+    "rating": 4.6,
+    "location": "Hyderabad, Telangana"
+  },
+  {
+    "name": "Ooty",
+    "state": "Tamil Nadu",
+    "city": "Ooty",
+    "image": "/images/ooty.png",
+    "description": "Famous hill station known for tea gardens and cool weather.",
+    "bestTime": "March - June",
+    "entryFee": 0,
+    "rating": 4.8,
+    "location": "Ooty, Tamil Nadu"
+  },
+  {
+    "name": "Golden Temple",
+    "state": "Punjab",
+    "city": "Amritsar",
+    "image": "/images/goldentemple.png",
+    "description": "The holiest Sikh shrine, admired for its golden architecture.",
+    "bestTime": "October - March",
+    "entryFee": 0,
+    "rating": 5.0,
+    "location": "Amritsar, Punjab"
+  },
+  {
+    "name": "Hawa Mahal",
+    "state": "Rajasthan",
+    "city": "Jaipur",
+    "image": "/images/hawamahal.png",
+    "description": "The Palace of Winds, famous for its unique windows.",
+    "bestTime": "October - March",
+    "entryFee": 50,
+    "rating": 4.7,
+    "location": "Jaipur, Rajasthan"
+  },
+  {
+    "name": "Dal Lake",
+    "state": "Jammu & Kashmir",
+    "city": "Srinagar",
+    "image": "/images/dallake.png",
+    "description": "Scenic lake famous for houseboats and shikara rides.",
+    "bestTime": "April - October",
+    "entryFee": 0,
+    "rating": 4.9,
+    "location": "Srinagar"
+  },
+  {
+    "name": "Konark Sun Temple",
+    "state": "Odisha",
+    "city": "Konark",
+    "image": "/images/konark.png",
+    "description": "Ancient Sun Temple and UNESCO World Heritage Site.",
+    "bestTime": "October - February",
+    "entryFee": 40,
+    "rating": 4.8,
+    "location": "Konark, Odisha"
+  },
+  {
+    "name": "Gateway of India",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "image": "/images/gatewayofindia.png",
+    "description": "Historic arch monument overlooking the Arabian Sea.",
+    "bestTime": "November - February",
+    "entryFee": 0,
+    "rating": 4.7,
+    "location": "Mumbai, Maharashtra"
+  },
+  {
+    "name": "Marina Beach",
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "image": "/images/marinabeach.png",
+    "description": "One of the longest urban beaches in the world.",
+    "bestTime": "November - February",
+    "entryFee": 0,
+    "rating": 4.6,
+    "location": "Chennai, Tamil Nadu"
+  },
+  {
+    "name": "Jog Falls",
+    "state": "Karnataka",
+    "city": "Shimoga",
+    "image": "/images/jogfalls.png",
+    "description": "One of the highest waterfalls in India.",
+    "bestTime": "July - October",
+    "entryFee": 30,
+    "rating": 4.8,
+    "location": "Shimoga, Karnataka"
+  },
+  {
+    "name": "Meenakshi Temple",
+    "state": "Tamil Nadu",
+    "city": "Madurai",
+    "image": "/images/meenakshi.png",
+    "description": "Historic Hindu temple famous for colorful towers.",
+    "bestTime": "October - March",
+    "entryFee": 0,
+    "rating": 4.9,
+    "location": "Madurai, Tamil Nadu"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "city": "Golaghat",
+    "image": "/images/kaziranga.png",
+    "description": "UNESCO World Heritage Site known for one-horned rhinoceroses.",
+    "bestTime": "November - April",
+    "entryFee": 100,
+    "rating": 4.8,
+    "location": "Assam"
+  },
+  {
+    "name": "Rann of Kutch",
+    "state": "Gujarat",
+    "city": "Kutch",
+    "image": "/images/rannofkutch.png",
+    "description": "Famous white salt desert and Rann Utsav festival.",
+    "bestTime": "November - February",
+    "entryFee": 100,
+    "rating": 4.8,
+    "location": "Kutch, Gujarat"
+  },
+  {
+    "name": "Bodh Gaya",
+    "state": "Bihar",
+    "city": "Gaya",
+    "image": "/images/bodhgaya.png",
+    "description": "Sacred Buddhist pilgrimage site where Buddha attained enlightenment.",
+    "bestTime": "October - March",
+    "entryFee": 0,
+    "rating": 4.7,
+    "location": "Gaya, Bihar"
+  },
+  {
+    "name": "Goa Beach",
+    "state": "Goa",
+    "city": "Panaji",
+    "image": "/images/goabeach.png",
+    "description": "Famous for its golden beaches, nightlife, water sports, and Portuguese heritage.",
+    "bestTime": "November - February",
+    "entryFee": 0,
+    "rating": 4.9,
+    "location": "Panaji, Goa"
+  },
+  {
+    "name": "Kodaikanal",
+    "state": "Tamil Nadu",
+    "city": "Kodaikanal",
+    "image": "/images/kodaikanal.png",
+    "description": "A scenic hill station known for its lake, pine forests, waterfalls, and cool climate.",
+    "bestTime": "October - June",
+    "entryFee": 0,
+    "rating": 4.8,
+    "location": "Kodaikanal, Tamil Nadu"
+  }
+]
