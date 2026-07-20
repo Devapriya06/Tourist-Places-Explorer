@@ -61,7 +61,7 @@ function Home() {
 ))
   ) : (
     <div className="no-results">
-      <h2>😕 No Places Found</h2>
+      <h2> No Places Found</h2>
       <p>
         
       </p>

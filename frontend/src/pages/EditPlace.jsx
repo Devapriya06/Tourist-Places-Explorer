@@ -79,7 +79,7 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
           <input
             type="text"
             name="name"
-            placeholder="📍 Place Name"
+            placeholder=" Place Name"
             value={place.name}
             onChange={handleChange}
             required
@@ -88,7 +88,7 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
           <input
             type="text"
             name="state"
-            placeholder="🌍 State"
+            placeholder=" State"
             value={place.state}
             onChange={handleChange}
             required
@@ -97,7 +97,7 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
           <input
             type="text"
             name="city"
-            placeholder="🏙 City"
+            placeholder=" City"
             value={place.city}
             onChange={handleChange}
             required
@@ -106,7 +106,7 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
           <input
             type="text"
             name="location"
-            placeholder="📌 Location"
+            placeholder=" Location"
             value={place.location}
             onChange={handleChange}
             required
@@ -115,7 +115,7 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
           <input
             type="text"
             name="image"
-            placeholder="🖼 Image URL"
+            placeholder=" Image URL"
             value={place.image}
             onChange={handleChange}
             required
@@ -124,7 +124,7 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
           <input
             type="text"
             name="bestTime"
-            placeholder="📅 Best Time"
+            placeholder=" Best Time"
             value={place.bestTime}
             onChange={handleChange}
             required
@@ -133,7 +133,7 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
           <input
             type="number"
             name="entryFee"
-            placeholder="🎟 Entry Fee"
+            placeholder=" Entry Fee"
             value={place.entryFee}
             onChange={handleChange}
             required
@@ -143,7 +143,7 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
             type="number"
             step="0.1"
             name="rating"
-            placeholder="⭐ Rating"
+            placeholder=" Rating"
             value={place.rating}
             onChange={handleChange}
             required
@@ -153,7 +153,7 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
 
         <textarea
           name="description"
-          placeholder="📝 Description"
+          placeholder=" Description"
           value={place.description}
           onChange={handleChange}
           rows="5"

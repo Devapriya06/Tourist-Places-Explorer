@@ -37,7 +37,7 @@ function PlaceCard({ place, fetchPlaces }) {
 
         <p><strong>City:</strong> {place.city}</p>
 
-        <p><strong>Rating:</strong> ⭐ {place.rating}</p>
+        <p><strong>Rating:</strong>  {place.rating}</p>
 
         <p className="description">
           {place.description}

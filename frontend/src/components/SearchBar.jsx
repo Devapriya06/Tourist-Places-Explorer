@@ -2,7 +2,7 @@ function SearchBar({ search, setSearch }) {
   return (
     <input
       type="text"
-      placeholder="🔍 Search tourist place..."
+      placeholder=" Search tourist place..."
       value={search}
       onChange={(e) => setSearch(e.target.value)}
       style={{
