@@ -50,32 +50,32 @@ function PlaceDetails() {
 
 <div className="info-grid">
   <div className="info-box">
-    <strong>📍 Location</strong><br />
+    <strong> Location</strong><br />
     {place.location}
   </div>
 
   <div className="info-box">
-    <strong>🏙️ City</strong><br />
+    <strong> City</strong><br />
     {place.city}
   </div>
 
   <div className="info-box">
-    <strong>🌎 State</strong><br />
+    <strong> State</strong><br />
     {place.state}
   </div>
 
   <div className="info-box">
-    <strong>📅 Best Time</strong><br />
+    <strong> Best Time</strong><br />
     {place.bestTime}
   </div>
 
   <div className="info-box">
-    <strong>🎫 Entry Fee</strong><br />
+    <strong> Entry Fee</strong><br />
     ₹{place.entryFee}
   </div>
 
   <div className="info-box">
-    <strong>⭐ Rating</strong><br />
+    <strong> Rating</strong><br />
     {place.rating}
   </div>
 </div>
