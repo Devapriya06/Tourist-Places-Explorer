@@ -1,0 +1,295 @@
+.manage-container {
+  min-height: 100vh;
+  padding: 5px 50px 50px;
+  background:
+    linear-gradient(rgba(255,255,255,0.35),
+                    rgba(255,255,255,0.35)),
+    url("/images/world-map.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: -20px;
+
+}
+
+.manage-container h1{
+    font-size:44px;
+    font-weight:800;
+    color:#1e3a8a;
+    margin-bottom:40px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.top-bar input {
+    width: 300px;          
+    padding: 16px 20px;    
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 14px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    font-size: 16px;
+    color: #1f2937;
+}
+
+.top-bar input::placeholder {
+  color: #1e3a8a;
+  font-weight: 500;
+}
+
+.top-bar input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37,99,235,.15);
+}
+
+.add-btn{
+    border-radius:14px;
+    padding:15px 24px;
+    background:#1e3a8a;
+    box-shadow:0 8px 20px rgba(30,58,138,.25);
+    text-decoration: none;
+}
+
+
+.add-btn:hover {
+  background: #163172;
+  transform: translateY(-2px);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    overflow:hidden;
+    border-radius:18px;
+    background:white;
+    box-shadow:0 12px 30px rgba(0,0,0,.10);
+}
+
+thead{
+    background:#06284f;
+    color:white;
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+tbody tr td {
+    border-bottom: 1px solid #cbd5e1;
+}
+
+tbody tr{
+    transition:.3s;
+}
+
+tbody tr:hover {
+    background: #eef6ff;
+}
+td img{
+    width:105px;
+    height:72px;
+    border-radius:12px;
+    object-fit:cover;
+    transition:.3s;
+}
+
+td img:hover{
+    transform:scale(1.08);
+}
+
+td a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+td button {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+td button:hover {
+  background: darkred;
+}
+
+tbody td {
+  color: #131414;
+  font-weight: 500;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.view-btn,
+.edit-btn,
+.delete-btn {
+  min-width: 85px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  background: white;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.view-btn {
+  color: #6b7280;
+  border-color: #6b7280;
+}
+
+.view-btn:hover {
+  background: #6b7280;
+  color: white;
+}
+
+
+.edit-btn {
+  color: #2563eb;
+  border-color: #2563eb;
+}
+
+.edit-btn:hover {
+  background: #2563eb;
+  color: white;
+}
+
+
+.delete-btn {
+  color: #dc2626;
+  border-color: #dc2626;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+  color: white;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 99999;
+}
+
+.delete-modal {
+  width: 420px;
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 25px 60px rgba(0,0,0,.25);
+}
+
+.delete-modal h2 {
+  color: #dc2626;
+  margin-bottom: 15px;
+}
+
+.delete-modal p {
+  margin-bottom: 25px;
+  font-size: 18px;
+  color: #374151;      
+  line-height: 1.6;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.cancel-btn,
+.confirm-delete-btn {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cancel-btn {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.cancel-btn:hover {
+  background: #d1d5db;
+}
+
+.confirm-delete-btn {
+  background: #dc2626;
+  color: white;
+}
+
+.confirm-delete-btn:hover {
+  background: #b91c1c;
+}
+
+.manage-card {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 30px;
+    overflow: hidden;
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.12),
+        0 30px 70px rgba(0,0,0,0.18);
+}
+
+.manage-card::before{
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: rgba(255,255,255,.92);
+
+    backdrop-filter: blur(18px);
+
+    border-radius: 30px;
+
+    z-index: -1;
+}
+
+.admin-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+

@@ -1,5 +1,6 @@
 import "../styles/AddPlace.css";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../services/api";
 
 function AddPlace() {
@@ -22,22 +23,25 @@ function AddPlace() {
     });
   };
 
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
+  const navigate = useNavigate();
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     
 if (Number(place.entryFee) < 0) {
-  alert("Entry Fee cannot be negative");
+  return window.alert("Entry Fee cannot be negative");
   return;
 }
 
 if (Number(place.rating) < 0 || Number(place.rating) > 5) {
-  alert("Rating must be between 0 and 5");
+  window.alert("Rating must be between 0 and 5");
   return;
 }
 
     try {
       await API.post("/places", place);
-      alert("Tourist Place Added Successfully!");
+      setShowSuccessModal(true);
 
       setPlace({
         name: "",
@@ -51,9 +55,9 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
         location: "",
       });
     } catch (error) {
-      console.log(error);
-      alert("Error adding place");
-    }
+  console.log(error);
+  window.alert("Error adding place");
+}
   };
 
   return (
@@ -160,6 +164,26 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
       </form>
 
     </div>
+    {showSuccessModal && (
+  <div className="modal-overlay">
+    <div className="success-modal">
+
+      <div className="success-icon"></div>
+
+      <h2></h2>
+
+      <p>Tourist Place Added Successfully!</p>
+
+      <button
+        className="success-btn"
+        onClick={() => navigate("/")}
+      >
+        Back to Home
+      </button>
+
+    </div>
+  </div>
+)}
   </div>
 );
 }

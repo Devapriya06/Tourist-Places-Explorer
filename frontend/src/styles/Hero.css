@@ -1,9 +1,10 @@
 .hero {
-    background: linear-gradient(135deg, #1565C0, #42A5F5);
+    background: linear-gradient(135deg, #092a4f, #42A5F5);
     color: white;
     text-align: center;
     padding: 70px 20px;
     border-radius: 15px;
+    margin-top: -50px; 
     margin-bottom: 30px;
 }
 
@@ -16,4 +17,21 @@
 .hero p {
     font-size: 22px;
     margin: 0;
+}
+
+.manage-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 22px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.manage-btn:hover {
+  background: #1d4ed8;
 }

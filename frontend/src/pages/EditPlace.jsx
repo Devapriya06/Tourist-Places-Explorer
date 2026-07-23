@@ -32,6 +32,8 @@ function EditPlace() {
     }
   };
 
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
+  
   const handleChange = (e) => {
     setPlace({
       ...place,
@@ -55,8 +57,8 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
 
     try {
       await API.put(`/places/${id}`, place);
-      alert("Tourist Place Updated Successfully!");
-      navigate("/");
+
+setShowSuccessModal(true);
     } catch (error) {
       console.log(error);
       alert("Error updating place");
@@ -167,6 +169,26 @@ if (Number(place.rating) < 0 || Number(place.rating) > 5) {
       </form>
 
     </div>
+    {showSuccessModal && (
+  <div className="modal-overlay">
+    <div className="success-modal">
+
+      <div className="success-icon"></div>
+
+      <h2></h2>
+
+      <p>Tourist Place Updated Successfully!</p>
+
+      <button
+        className="success-btn"
+        onClick={() => navigate("/manage")}
+      >
+        Back to Dashboard
+      </button>
+
+    </div>
+  </div>
+)}
   </div>
 );
 }

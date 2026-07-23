@@ -4,6 +4,8 @@ import "../styles/PlaceCard.css";
 
 function PlaceCard({ place, fetchPlaces }) {
 
+  const role = localStorage.getItem("role");
+
   const handleDelete = async () => {
 
     const confirmDelete = window.confirm(
@@ -44,18 +46,27 @@ function PlaceCard({ place, fetchPlaces }) {
         </p>
 
         <div className="card-actions">
-          <Link to={`/place/${place._id}`} className="view-btn">
-            View Details
-          </Link>
 
-          <Link to={`/edit/${place._id}`} className="edit-btn">
-            Edit
-          </Link>
+  <Link to={`/place/${place._id}`} className="view-btn">
+    View Details
+  </Link>
 
-          <button onClick={handleDelete} className="delete-btn">
-            Delete
-          </button>
-        </div>
+  {role === "admin" && (
+    <>
+      <Link to={`/edit/${place._id}`} className="edit-btn">
+        Edit
+      </Link>
+
+      <button
+        onClick={handleDelete}
+        className="delete-btn"
+      >
+        Delete
+      </button>
+    </>
+  )}
+
+</div>
 
       </div>
 
